@@ -1,0 +1,33 @@
+{
+  "name": "bitrix24chatbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js", 
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sicorschi-Tudor/bitrix24ChatBot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sicorschi-Tudor/bitrix24ChatBot/issues"
+  },
+  "homepage": "https://github.com/Sicorschi-Tudor/bitrix24ChatBot#readme",
+  "dependencies": {
+    "axios": "^1.9.0",
+    "body-parser": "^2.2.0",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "openai": "^4.100.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
